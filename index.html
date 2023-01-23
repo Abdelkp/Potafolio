@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador-1</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <h1><img src="imagenes/Recurso 3.png" alt="Logo AKweb" style="height: 80px;"></h1>
+        </div>
+
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minisculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick ="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick ="btnDesencriptar()">Desencriptar</button>
+                
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <h6 class="textEn">Ningun mensaje fue encontrado</h6>
+                <button class="btn-copiar" onclick="copyButton">Copiar</button>
+            </div>
+        </section>
+         
+    </main>
+    <footer>
+        <img src="/imagenes/Recurso 3.png" alt="Logo AKweb"class="footer-logo">
+        <p class="copy"> &copy Copyright Akweb -2023</p>
+    </footer>
+
+<script src="/script.js"></script>
+    
+</body>
+</html>
